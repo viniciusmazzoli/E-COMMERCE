@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-COMMERCE</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="row">
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid justify-content-between">
+        <!-- Left elements -->
+        <div class="d-flex">
+          <!-- Brand -->
+          <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+            <img src="images/Mazzolip.png" height="44" alt="MDB Logo" loading="lazy" style="margin-top: 2px;" />
+          </a>
+
+          <!-- Search form -->
+
+          <form class="d-flex">
+            <input class="form-control me-2 h-50 mt-3 w-100" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success h-50 mt-3 " type="submit">Search</button>
+          </form>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Center elements -->
+        <ul id="navbar1"class="navbar-nav flex-row d-none d-md-flex d-lg-flex ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Entrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Registrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Minha conta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Acompanhar pedido</a>
+            </li>
+            <img src="images/shoppingcart_compras_13341.png" class="rounded-circle" height="44"
+              alt="Black and White Portrait of a Man" loading="lazy" />
+
+          </ul>
+
+        </ul>
+        <!-- Center elements -->
+
+        <!-- Right elements -->
+        <ul class="navbar-nav flex-row ">
+          <li class="nav-item me-3 me-lg-1  ">
+            <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-plus-circle fa-lg"></i></span>
+            </a>
+          </li>
+
+
+
+        </ul>
+        <!-- Right elements -->
+      </div>
+    </nav>
+    <!-- Navbar -->
+  </div>
+
+
+  <div class="row">
+    <div class="col-lg-3 ">
+
+      <div id="form" class="border border-secondary p-5">
+        <h4 class="mt-1">Filtro de pesquisas</h4>
+        <h5 class="mt-4">Procuro O Produto certo com o preço certo</h5>
+        <select class="form-select mt-3" aria-label="Default select example">
+          <option selected>Abra isso e escolha o tipo</option>
+          <option value="1">Gamer</option>
+          <option value="2">Casual</option>
+          <option value="3">Trabalho</option>
+        </select>
+        <select class="form-select mt-3" aria-label="Default select example">
+          <option selected>Abra isso e escolha a marca</option>
+          <option value="1">Logitech</option>
+          <option value="2">Razer</option>
+          <option value="3">HyperX</option>
+        </select>
+        <select class="form-select mt-3" aria-label="Default select example">
+          <option selected>Abra isso e escolha o produto</option>
+          <option value="1">Teclado</option>
+          <option value="2">Mouse</option>
+          <option value="3">Fone</option>
+        </select>
+
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control mt-2" placeholder="Minimo Valor" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control mt-2" placeholder="Maximo Valor" aria-label="Last name">
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary mt-4 w-100" data-toggle="button" aria-pressed="false"
+          autocomplete="off">
+          Pesquisar
+        </button>
+      </div>
+
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide col-lg " data-bs-ride="carousel">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/image1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/images3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/images3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h1>Produtos Disponiveis:</h1>
+    <input type="text" id="searchInput" class="searchInput" placeholder="Pesquisar pelo nome" oninput="filterProducts()"></input>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <div class="row">
+      <div class="container col" id="productList"></div>
+      <div class="col-lg-3 mt-5 ">
+        <div class="border-secondary ">
+          <h4 class="mt-1">Mais Vendidos</h4>
+          <div class="row ">
+            <div class="card h-100 ">
+              <img src="images/fonte.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body ">
+
+                <a href="" class="h2 text-decoration-none text-dark">Fonte 500W</a>
+                <p class="card-text">
+                  Fonte 500W
+                </p>
+                <p>R$600,00</p>
+                <p class="text-muted"><img class="star" src="images/estrelas.png" alt=""></p>
+              </div>
+
+            </div>
+            <div class="card h-100">
+              <img src="images/fonte.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+
+                <a href="" class="h2 text-decoration-none text-dark">Fonte 500W</a>
+                <card-img-top class="card-text">
+                  Fonte 500W
+                  </p>
+                  <p>R$600,00</p>
+                  <p class="text-muted"><img class="star" src="images/estrelas.png" alt=""></p>
+              </div>
+
+            </div>
+            <div class="card h-100">
+              <img src="images/fonte.jpg" class="card-img-top " alt="...">
+              </a>
+              <div class="card-body">
+
+                <a href="" class="h2 text-decoration-none text-dark">Fonte 500W</a>
+                <p class="card-text">
+                  Fonte 500W
+                </p>
+                <p>R$600,00</p>
+                <p class="text-muted"><img class="star" src="images/estrelas.png" alt=""></p>
+              </div>
+
+            </div>
+
+          </div>
+          <button type="button" class="btn btn-primary mt-3 w-100" data-toggle="button" aria-pressed="false"
+            autocomplete="off">
+            veja mais
+
+          </button>
+        </div>
+        <div class="border border-secondary mt-5 p-3">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Novidades da Loja</label>
+            <label for="exampleInputEmail1" class="form-label">Digite seu email para ficar por dentro das novidades da
+              loja</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <button type="button" class="btn btn-primary mt-4 w-100" data-toggle="button" aria-pressed="false"
+              autocomplete="off">
+              ENTRE JÁ
+
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  </div>
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget subscribe no-box">
+              <h5 class="widget-title">Payment Methods<span></span></h5>
+              <a href="#"> <i class=""> </i> </a>
+            </div>
+          </div>
+
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Quick Links<span></span></h5>
+              <ul class="thumbnail-widget">
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;Help</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;Shipping Policy</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;Cacelation & Returns</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;FAQ</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;Privacy Policy</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">&nbsp;Disclamer</a></div>
+                </li>
+                <li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title ">Follow up<span></span></h5>
+              <a href="https://linkedin.com/in/vinicius-mazzoli-26a99b205"> <i class=""> </i> <img class="logomarcas" src="images/linkedin.png" alt=""> </a>
+              <a href="#"> <i class=""> </i> <img class="logomarcas" src="images/google.png" alt=""></a>
+              <a href="#"> <i class=""> </i> <img class="logomarcas" src="images/twitter.png" alt=""></a>
+            </div>
+          </div>
+          <br>
+          <br>
+
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Contact Us<span></span></h5>
+              <p>Belo Horizonte</p>
+              <p>Minas Gerais</p>
+              <p>Brasil</p>
+              <a href="#"> viniciusmazzoli2005@gmail.com <i class=""> </i></a>
+              <br>
+              <br>
+              <a href="#"> 31 98495-6969 <i class=""> </i> </a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>© 2007-2014 Vinicius Mazzoli.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

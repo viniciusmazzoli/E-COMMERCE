@@ -1,0 +1,66 @@
+.img-logo{
+    width: 150px;
+}
+
+.logomarcas{
+    width: 35px;
+}
+
+.metodopag{
+    width: 250px;
+}
+
+.star{
+    width: 100px;
+}
+/*card produtos*/
+.container{
+    margin-top:15px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+
+}
+
+#productList{
+    margin-top: 50px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  
+  .product img {
+    width: 80px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .product-price {
+    margin: 10px 0;
+  }
+
+  #form{
+    border-radius: 15px;
+    margin-left: 15px;
+    height: 95%;
+  }
+
+  #searchInput{
+    width: 70%;
+    height: 45px;
+    border-radius: 10px;
+  }
+
+  
